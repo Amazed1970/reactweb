@@ -1,0 +1,164 @@
+body{
+	background-color: azure;
+}
+
+.App {
+  text-align: center;
+}
+h1{
+	margin-top: 50px;
+}
+.Footer-logo {
+height: 130px;
+text-align: center;	
+background-color: black;
+color:white;
+
+
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 110px;
+  float:left;
+}
+
+.App-header {
+  font-family: monospace;
+  height: 150px;
+  padding: 20px;
+  color: black;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+article{
+	color:black;
+	background-color:azure;
+	padding:10px;
+	text-align:left;
+	border-radius: 10px;
+}
+#container{
+	text-align: center;
+	
+	
+}
+section{
+	margin:5px 10px 10px 10px;
+	color:black;
+	padding:10px;
+	height:100%;
+	text-align:left;
+	border-radius: 10px;
+	
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.breadcrumb-class{
+	background-color: aquamarine;
+	font-family: sans-serif;
+	font-weight: 600;
+	padding: 10px;
+	text-transform: uppercase;
+	text-decoration-color: black;
+}
+
+.breadcrumb-class:hover{
+	
+	font-family: sans-serif;
+	font-weight: 600;
+	padding: 10px;
+	text-transform: uppercase;
+	text-decoration-color: black;
+}
+
+
+.botones-class{
+	float:right;
+	border: 3px solid white;
+	background-color: black;
+	border-radius: 10px;
+	width: 65px;
+	height: 25px;
+	font-weight: 600;
+	display: inline-block;
+	margin:10px;
+	color:white;
+	
+}
+
+
+.botones-class:hover{
+	float:right;
+	border-radius: 10px;
+	background-color: red;
+	width: 65px;
+	height: 25px;
+	font-weight: 600;
+	color:white;
+	display: inline-block;
+	
+}
+
+.dropdown-class{
+	font-size: 30px;
+	
+}
+
+footer{
+  color: white;
+}
+footer a{
+  color: #bfffff;
+}
+footer a:hover{
+  color: white;
+}
+
+.footer-bottom{
+  background: #3d6277;
+  padding: 2em;
+}
+.footer-top{
+  background: #2d4958;  
+}
+.footer-middle{
+   background: #3d6277;
+  padding-top: 2em;
+  color: white;
+}
+/**Sub Navigation**/
+.subnavigation-container{
+  background: #3d6277;
+}
+.subnavigation .nav-link{
+  color: white;
+  font-weight: bold;
+}
+.subnavigation-container{
+  text-align: center;
+}
+.subnavigation-container .navbar{
+  display: inline-block;
+  margin-bottom: -6px; /* Inline-block margin offffset HACK -Gilron */
+}
+.col-subnav a{
+  padding: 1rem 1rem;
+  color: white;
+  font-weight: bold;
+}
+.col-subnav .active{
+  border-top:5px solid orange;
+ background: white;
+  color: black;
+}
